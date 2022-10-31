@@ -1,0 +1,85 @@
+/* .block {
+  background-color: red;
+}
+.block:hover {
+  background-color: yellow;
+  cursor: pointer;
+} */
+
+/* li:first-child {
+  background-color: aqua;
+}
+li:last-child {
+  background-color: blueviolet;
+}
+li:nth-child(3) {
+  background-color: crimson;
+} */
+
+/* li:nth-child(odd) {
+  background-color: rgb(47, 0, 255);
+}
+li:nth-child(even) {
+  background-color: aquamarine;
+}
+a:visited {
+  color: rgb(0, 255, 64);
+} */
+/* #block::before {
+  content: "BEFORE ";
+  color: red;
+}
+
+#block::after {
+  content: "AFTER ";
+  color: blue;
+} */
+/* .block {
+  width: 400px;
+  height: 200px;
+  background-color: gray;
+  position: relative;
+  padding-left: 15px;
+  /* border-left: 5px blue solid; */
+/* border-radius: 5px; */
+/* border-top-left-radius: 5px; */
+/* border-bottom-left-radius: 5px;} */
+
+/* .block::before {
+  content: "";
+  width: 10px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  border-radius: 5px;
+} */
+/* body {
+  height: 300vh;
+} */
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* position: relative; */
+}
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* position: absolute; */
+  margin: 0 auto;
+}
+.grandson {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(219, 40, 168);
+  /* position: sticky;
+  right: 0; */
+  margin: 0 auto;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

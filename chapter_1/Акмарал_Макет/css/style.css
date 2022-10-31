@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+nav {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 1240px;
+  height: 100px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar p {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.menu {
+  width: 600px;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+}
+
+.login {
+  height: 90px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+}
+.login button {
+  font: size 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  background-color: #ece5ff;
+  color: #794cff;
+  border-radius: 4px;
+  border: none;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.texts {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.save {
+  position: absolute;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  color: #fff;
+  background-color: #81c43b;
+  border-radius: 100px;
+  border: none;
+  padding: 4px 6px;
+  left: 39%;
+}
+.get {
+  text-align: end;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  background-color: #f2f9eb;
+  border: none;
+  border-radius: 0 100px 100px 0;
+  padding: 4px 4px 4px 24px;
+}
+.first h1 {
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600px;
+  color: #35414b;
+  text-align: center;
+}
+.simple {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  color: #4e5a65;
+  text-align: center;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input input {
+  position: absolute;
+  height: 30px;
+  width: 153px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #e1e5ea;
+  left: 36%;
+}
+.input button {
+  margin: auto;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  height: 34px;
+  width: 112px;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  background-color: #794cff;
+  border: 1px solid #794cff;
+  padding: 5px 18pxpx;
+}
+.first_block_img {
+  width: 920px;
+  height: 654px;
+  margin: auto;
+}
+.first_img {
+  width: 92px;
+  height: 65px;
+  /* margin: auto; */
+}
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.company span {
+  padding: 18px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  color: #4e5a65;
+}
+.company-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second {
+  margin-top: 35px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.chat img {
+  height: 518px;
+  width: 657px;
+}
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.task__card {
+  width: 300px;
+  height: 100px;
+  padding-left: 10px;
+  position: relative;
+}
+.card-border::before {
+  content: "";
+  width: 8px;
+  height: 100px;
+  background-color: #794cff;
+  position: absolute;
+  left: 0;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #35414b;
+}

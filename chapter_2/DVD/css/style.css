@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+div {
+  position: relative;
+  color: red;
+  font-weight: 900;
+  font-size: 80px;
+  animation: dvd 15s linear infinite alternate-reverse;
+}
+@keyframes dvd {
+  0% {
+    left: 700px;
+    top: 0;
+  }
+  25% {
+    left: 100%;
+    top: 200px;
+  }
+  70% {
+    top: 400px;
+    left: 0;
+  }
+  100% {
+    top: 650px;
+    left: 600px;
+  }
+}

@@ -1,0 +1,39 @@
+.parent {
+  background-color: red;
+  height: 600px;
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  /* justify-content: space-evenly; */
+  /* justify-content: end; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: end; */
+  /* align-items: end; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  flex-wrap: wrap;
+}
+.child {
+  color: rgb(249, 248, 248);
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+/* .second {
+  order: -1;
+}
+.first {
+  order: 1;
+}
+.fifth {
+  order: 2;
+} */
